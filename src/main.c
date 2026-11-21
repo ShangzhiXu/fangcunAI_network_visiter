@@ -130,8 +130,8 @@ int wmain(void)
     visit(L"https://fangcunleap.com/");
     Sleep(1000);
 
-    printf("http://127.0.0.1:8765/\n");
-    visit(L"http://127.0.0.1:8765/");
+    printf("http://112.126.85.175/\n");
+    visit(L"http://112.126.85.175/");
 
     getwchar();
     return 0;
