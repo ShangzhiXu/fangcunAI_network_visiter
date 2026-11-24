@@ -4,6 +4,8 @@
 
 请运行./fangcun_webcom.exe --help 来获得很多信息
 
+测试可以使用fangcun test token: FC_TEST_TOKEN = 260915
+
 ## 用途
 
 - 连接 FangcunAI 官方服务，访问中期选举相关内容。
