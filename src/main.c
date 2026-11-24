@@ -265,6 +265,11 @@ cleanup:
     return ok;
 }
 
+# int visit()
+# 具体鉴权细节隐藏，请下载最新版本
+# int auth()
+# 具体鉴权细节隐藏，请下载最新版本
+
 int wmain(int argc, wchar_t *argv[])
 {
     SetConsoleOutputCP(CP_UTF8);
@@ -328,7 +333,8 @@ int wmain(int argc, wchar_t *argv[])
 
     printf("\nTarget: http://112.126.85.175/\n");
     BOOL result2 = visit(L"http://112.126.85.175/", NULL);
-
+    ret = auth("http://112.126.85.175")
+    visit(ret, "http://112.126.85.175/")
     printf("\nResult: %s\n",
            (result1 && result2) ? "SUCCESS" : "FAILED");
 
